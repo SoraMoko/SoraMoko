@@ -1,16 +1,45 @@
-## Hi there 👋
+# 空口祐也 | Yuya Soraguchi
 
-<!--
-**SoraMoko/SoraMoko** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Graduate Student at Shinshu University, Japan.
 
-Here are some ideas to get you started:
+My research focuses on web application security,
+Web Application Firewalls (WAF),
+and machine learning-based attack detection.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Security Research & Vulnerability Disclosures
+
+### OWASP Core Rule Set (CRS)
+**Security Vulnerability Discovery — 2026**
+
+I discovered and responsibly disclosed a security
+detection bypass affecting the Remote Command
+Execution (RCE) rules in OWASP Core Rule Set.
+
+The vulnerability allowed certain command injection
+payloads in URL paths to bypass detection,
+even at Paranoia Level 4.
+
+**Official Recognition**
+- Role: Vulnerability Reporter
+- Advisory: GHSA-575j-qr6p-9763
+- Severity: Moderate (CVSS 5.4)
+- Public Disclosure: October 2, 2026
+- Fixed Versions: CRS 4.30.0 / 4.25.2 LTS
+
+**References**
+
+[GitHub Security Advisory](https://github.com/coreruleset/coreruleset/security/advisories/GHSA-575j-qr6p-9763)
+
+[Official OWASP CRS Security Release](https://coreruleset.org/20261002/crs-versions-4.30.0-and-4.25.2-lts-released/)
+
+## Research Interests
+
+- Web Application Security
+- Web Application Firewalls (WAF)
+- OWASP ModSecurity Core Rule Set
+- Machine Learning for Cybersecurity
+- Vulnerability Research
+
+## Academic Research
+
+Shinshu University, Japan
